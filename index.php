@@ -1,9 +1,5 @@
 <?php
-define('GET_TARIFFS','get_tariffs');
-define('API_KEY','r1h5l9kdofbmgn1gikqw90x811dc9v07oz13m3slnre5en87bdosdxtq50wvqift');
-define('URL','https://unu.ru/api');
-
-
+require_once 'params.php';
 $param = array(
     'action' => GET_TARIFFS,
     'api_key' => API_KEY
